@@ -1,0 +1,190 @@
+#interface {
+    height: 100%;
+    width: 100%;
+    background-color: #efefef;
+    
+    border-style: solid;
+    border-color: dodgerblue;
+}
+
+#mainContainer {
+    padding-top: 0px;
+}
+
+#header {
+    height: 100px;
+    background-color: lightgray;
+}
+
+.inside_header {
+    /* display: inline-block; */
+}
+
+.menu {
+    float: left;
+    margin: 20px;
+}
+
+.admIcon {
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+
+figcaption {
+    color: #004b8d;
+    text-align: center;
+}
+
+#header-text {
+    font-family: cursive;
+    font-size: 35px;
+    color: #004b8d;
+}
+
+#sidebar {
+    position: relative;
+    display: inline-block;
+    height: 90%;
+    width: 20%;
+    padding-bottom: 10%;
+    background-color: #004b8d;
+}
+
+#rightside {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    background-color: white;
+}
+
+#inner-header {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.sidebar-text {
+    list-style: none;
+    position: relative;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.sidebar-text:hover {
+    /* font-size: 30px; */
+    color: #3FDDDD;
+    font-weight: bold;
+}
+
+.sidebar-icon {
+    position: relative;
+    height: 35px;
+    left: 5px;
+    top: 21px;
+    transform: translate(-50%, -50%);
+}
+
+.buttons {
+    display: inline-block;
+    text-align: center;
+    background-color: greenyellow;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.rightside-icons {
+    height: 40px;
+    margin-bottom: 5px;
+    transition: transform .2s;
+    /* Animation */
+}
+
+.rightside-icons:hover {
+    transform: scale(1.5)
+}
+
+.icon-text {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.icon-text:hover {
+    color: dodgerblue;
+    font-weight: bold;
+    transform: scale(1.5)
+}
+
+#icons-table {
+    position: relative;
+    text-align: center;
+    border-spacing: 30px;
+    border-right: 20px;
+    left: 50%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    top: 60px;
+    transform: translate(-50%, -50%);
+}
+
+#icons-table td {
+    cursor: pointer;
+}
+
+#table-title {
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+#table-title a {
+    font-size: 30px;
+    font-family: monospace;
+    margin-bottom: 0px;
+}
+
+#custom-header {
+    margin-top: 90px;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    font-size: 30px;
+    font-family: monospace;
+    margin-bottom: -120px;
+    background-color: white;
+}
+
+#users-table {
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 100px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);
+    width: 600px;
+}
+#users-table tbody{
+    height: 50px;
+}
+
+#users-table td,
+th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#users-table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#table-container{
+    position: relative;
+}

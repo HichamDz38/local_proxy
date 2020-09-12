@@ -1,0 +1,160 @@
+#interface{
+    height:700px;
+    width:1000px;
+    background-color:#efefef;
+    margin:auto;
+    border-style: solid;
+    border-color: green;
+}
+
+#mainContainer{
+padding-top: 100px;
+}
+
+#header{
+    height: 100px;
+    background-color: lightgray;
+}
+
+/* Start of header */
+.menu{
+    float: left;
+    margin: 20px;
+}
+
+.admIcon{
+    float: right;
+    margin-top: -50px;
+    margin-right: 20px;
+}
+figcaption{
+    color: green;
+    text-align: center;
+}
+/* End */
+
+#header-text{
+    font-family: cursive;
+    font-size: 35px;
+    color: green;
+}
+
+#sidebar{
+    position: relative;
+    display: inline-block;
+    height: 600px;;
+    width: 240px;
+    background-color: green;
+}
+
+#rightside{
+    display: inline-block;
+    position: absolute;
+    height: 600px;
+    width: 760px;
+    background-color: white;
+}
+
+#inner-header{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+}
+
+.sidebar-text{
+    list-style: none;
+    position: relative;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.sidebar-text:hover{
+    /* font-size: 30px; */
+    color: black;
+    font-weight: bold;
+}
+.sidebar-icon{
+    position: relative;
+    height: 35px;
+    left: 5px;
+    top: 21px;
+    transform: translate(-50%,-50%);
+}
+
+.buttons{
+    display: inline-block;
+    text-align: center;
+    background-color: greenyellow;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.rightside-icons{
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.icon-text{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #004b8d;
+}
+.icon-text:hover{
+    color: #004b8d;
+    font-weight: bold;
+    transform: scale(1.5)
+}
+#icons-table{
+    position: relative;
+    text-align: center;
+    left: 50%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    top: 100px;
+    transform: translate(-50%,-50%);
+    border-collapse: collapse;
+}
+#icons-table td{
+    cursor: pointer;
+}
+
+#icons-table td,th{
+    padding: 40px;
+}
+
+#table-title{
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+    top: -150px;
+    margin-bottom: 10px;
+}
+
+#table-title a{
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#users-table{
+    position: relative;
+    text-align: center;
+    border-collapse: collapse;
+    left: 50%;
+    top: -50px;
+    transform: translate(-50%,-50%); 
+}
+
+#users-table td,th{
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#users-table tr:nth-child(even) {
+  background-color: #dddddd;
+}

@@ -1,0 +1,138 @@
+#interface{
+    height:700px;
+    width:1000px;
+    background-color:#efefef;
+    margin:auto;
+    border-style: solid;
+    border-color: dodgerblue;
+}
+
+#mainContainer{
+padding-top: 100px;
+}
+
+#header{
+    height: 100px;
+    background-color: lightgray;
+}
+/* Start of header */
+.menu{
+  float: left;
+  margin: 20px;
+}
+
+.admIcon{
+  float: right;
+  margin-top: -50px;
+  margin-right: 20px;
+}
+figcaption{
+  color: #004b8d;
+  text-align: center;
+}
+/* End */
+#header-text{
+    font-family: cursive;
+    font-size: 35px;
+    color: #004b8d;
+}
+
+#sidebar{
+    position: relative;
+    display: inline-block;
+    height: 600px;;
+    width: 240px;
+    background-color: #004b8d;
+}
+
+#rightside{
+    display: inline-block;
+    position: absolute;
+    height: 600px;
+    width: 760px;
+    background-color: white;
+}
+
+#inner-header{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+}
+
+.sidebar-text{
+    list-style: none;
+    position: relative;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.sidebar-text:hover{
+  color: #3FDDDD;
+  font-weight: bold;
+}
+.sidebar-icon{
+    position: relative;
+    height: 35px;
+    left: 5px;
+    top: 21px;
+    transform: translate(-50%,-50%);
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
+/* For the adding a user */
+
+.container {
+  padding: 15px;
+  background-color: white;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-top: -5px;
+}
+
+
+.registerbtn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 16px 150px;
+  margin: 8px 200px;
+  border: none;
+  cursor: pointer;
+  width: -100%;
+  opacity: 0.9;
+}
+  
+.mid-table span input{   /* [type="date"]*/
+  margin-top: 10px;
+}
+
+.mid-table span label{ 
+  margin-top: 20px;
+  width: 250px;
+}
